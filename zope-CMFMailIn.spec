@@ -14,7 +14,6 @@ URL:        http://www.zope.org/Members/NIP/ZMailIn
 Source:     %{Product}-%{version}.tar.bz2
 Obsoletes:  %{Product}
 Buildarch:	noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 CMFMailIn is a Zope product to import emails into CMF sites.
