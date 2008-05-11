@@ -2,7 +2,7 @@
 %define product cmfmailin
 %define name    zope-%{Product}
 %define version 1.0.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name:		%{name}
 Version:	%{version}
@@ -13,7 +13,6 @@ Group:      System/Servers
 URL:        http://www.zope.org/Members/NIP/ZMailIn
 Source:     %{Product}-%{version}.tar.bz2
 Obsoletes:  %{Product}
-Buildarch:	noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
