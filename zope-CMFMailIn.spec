@@ -10,7 +10,7 @@ Release:	%{release}
 Summary:    A Zope product to import emails into CMF sites
 License:    GPL
 Group:      System/Servers
-URL:        http://www.zope.org/Members/NIP/ZMailIn
+URL:        https://www.zope.org/Members/NIP/ZMailIn
 Source:     %{Product}-%{version}.tar.bz2
 Obsoletes:  %{Product}
 BuildRoot:  %{_tmppath}/%{name}-%{version}
